@@ -35,4 +35,4 @@ jobs:
 
       - name: Force new deployment
         run: |
-          aws ecs update-service --cluster despachos-cluster --service frontend-service --force-new-deployment
+          aws ecs update-service --cluster despacho-cluster --service frontend-service --force-new-deployment
